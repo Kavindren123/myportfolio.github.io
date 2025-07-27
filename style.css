@@ -52,3 +52,10 @@ footer {
   text-decoration: none;
 }
 
+.project-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+
