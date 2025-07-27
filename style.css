@@ -93,6 +93,23 @@ button[type="submit"] {
   transition: background-color 0.3s;
 }
 
+.doc-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #0077cc;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.doc-button:hover {
+  background-color: #005fa3;
+}
+
 button[type="submit"]:hover {
   background-color: #2aa7a7;
 }
