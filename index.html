@@ -11,6 +11,15 @@
     <h1>M Kavindren</h1>
   </header>
 
+  <!-- Navigation Tabs -->
+  <nav>
+    <ul style="list-style: none; display: flex; gap: 20px; background-color: #333; padding: 10px; margin: 0;">
+      <li><a href="#about" style="color: white; text-decoration: none;">About</a></li>
+      <li><a href="#projects" style="color: white; text-decoration: none;">Projects</a></li>
+      <li><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
+    </ul>
+  </nav>
+
   <section id="about">
     <h2>About Me</h2>
     <p>I am a computer engineering graduate from Ngee Ann Polytechnic, specializing in network systems and security. During my studies, I developed a strong foundation in programming, particularly in C and C++, while also gaining hands-on experience in networking, including configuring and programming routers.
@@ -31,45 +40,46 @@ Teamwork and Collaborationt.</p>
   </section>
 
   <section id="projects">
-  <h2>Limo Robot</h2>
-    <img src="limo.jpg" alt="Limo Robot" width="300">
-  <p>Programming a limo robot to navigate a maze like structure using ROS.</p>
-  <ul>
-    <li>Explored and Mapped the arena layout using Odometry and LiDar data.</li>
-    <li>Learned and used RTAB-Map for mapping.</li>
-    <li>Using the RTAB-Map global and local planner to create a route to navigate the maze.</li>
-    <li>Fine tunned the parameters of the limo robot for better navigation and obstacle avoidance.</li>
-  </ul>
-<div class="tags">
-  <span>RTAB-Mapping</span>
-  <span>ROS</span>
-  <span>SLAM</span>
-  <span>LiDAR</span>
-  <span>Point Cloud</span>
-  <span>Costmap</span>
-  <span>Localization</span>
-  <span>Planner</span>
-  <span>Params</span>
-</div>
-      <a href="https://github.com/Kavindren123/limo_bringup" target="_blank">
-    <button style="padding: 10px 15px; border-radius: 8px; background-color: #24292e; color: white; border: none; margin-top: 10px;">
-      🔗 View Code on GitHub
-    </button>
-  </a>
+    <h2>LIMO Robot</h2>
+    <img src="images/limo.jpg" alt="LIMO Robot" width="300">
+    <p>The LIMO Robot project focuses on autonomous navigation using ROS (Robot Operating System). The robot is programmed to explore and map a maze-like environment, utilizing real-time sensor data for localization and obstacle avoidance.</p>
+    <ul>
+      <li>Mapped the environment using Odometry and LiDAR data with RTAB-Map.</li>
+      <li>Configured RTAB-Map's global and local planners for effective navigation.</li>
+      <li>Optimized obstacle avoidance and path planning by tuning system parameters.</li>
+      <li>Improved overall stability and performance for smoother navigation.</li>
+    </ul>
+    <div class="tags">
+      <span>RTAB-Map</span>
+      <span>ROS</span>
+      <span>SLAM</span>
+      <span>LiDAR</span>
+      <span>Point Cloud</span>
+      <span>Costmap</span>
+      <span>Localization</span>
+      <span>Planner</span>
+      <span>Parameter Tuning</span>
+    </div>
+    <a href="https://github.com/Kavindren123/limo_bringup" target="_blank">
+      <button style="padding: 10px 15px; border-radius: 8px; background-color: #24292e; color: white; border: none; margin-top: 10px;">
+        🔗 View Code on GitHub
+      </button>
+    </a>
 
-    <h2>Arena</h2>
-      <p>Building a maze like arena for the limo robot to navigate at same time making it look like a terminal 2 changi airport..</p>
-  <ul>
-    <li>Explored what makes termianl 2 different from the other terminals.</li>
-    <li>Used solidworks to put our thoughts into picture before actually building it to prevent waste of materials.</li>
-    <li>Measurements were taken so the limo robot can register obstacles as obstacles</li>
-  </ul>
-  <div class="tags">
-  <span>SolidWorks</span>
-  <span>CAT</span>
-</div>
-</section>
-
+    <h2>Arena Design</h2>
+    <p>This project involves designing and constructing a maze-like arena inspired by Changi Airport Terminal 2, tailored for LIMO Robot navigation and testing.</p>
+    <ul>
+      <li>Researched architectural and visual elements of Terminal 2 for thematic accuracy.</li>
+      <li>Used SolidWorks to design the arena before physical construction, optimizing material usage.</li>
+      <li>Ensured obstacle dimensions were aligned with the robot’s sensing capabilities for accurate detection.</li>
+    </ul>
+    <div class="tags">
+      <span>SolidWorks</span>
+      <span>CAD</span>
+      <span>Prototyping</span>
+      <span>Design Thinking</span>
+    </div>
+  </section>
 
   <section id="contact">
     <h2>Contact</h2>
